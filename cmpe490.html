@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Processing User Manual</title>
+  <style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+header p {
+  margin-bottom: 20px;
+}
+
+main h2 {
+  margin-top: 20px;
+}
+
+main p {
+  margin-bottom: 10px;
+}
+
+main h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+main img {
+  float: left;
+  margin-right: 20px;
+}
+
+main p + img {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: black;
+}
+
+ .stage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stage-container img {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Image Processing User Manual</h1>
+  </header>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>This user manual will guide you through the Image Processing application created using the Matlab Design App. Before you begin, please review the information below to understand the basic features of the application.</p>
+
+    <h3>Open Image Button</h3>
+    <img src="openbuton.png" alt="Open Image Button">
+    <p>Use the "Open Image" button to start the application. This button allows you to upload an image with the PNG extension. If your image does not have the PNG extension, you will immediately receive an error message on the screen. Please check your image format before proceeding.</p>
+
+<br>
+
+    <h3>Select Button</h3>
+    <img src="select.png" alt="Select Button">
+    <p>The "Select" button in the upper left corner offers various filter options. Once you have determined the filter you want to use, click the "Select" button to apply it.</p>
+
+<br>
+
+    <h3>Process Button</h3>
+    <img src="process.png" alt="Process Button">
+    <p>After selecting the filter, adjust the parameters (such as Noise Mean and Noise Variance) using the sliders provided. Once you are satisfied with the settings, click the "Process" button to apply the filter to your image.</p>
+
+<br>
+    <h3>Save Image Button</h3>
+    <img src="savebutton.png" alt="Save Image Button">
+    <p>Use the "Save Image" button to save the processed image to your device. You can specify the desired location for saving the image.</p>
+<br>
+
+    <h3>Help Button</h3>
+    <img src="help.png" alt="Help Button">
+    <p>If you encounter any problems or need additional assistance while using the application, click the "Help" button for a detailed user guide.</p>
+<br>
+<br>
+
+<h2>Usage Stages</h2>
+
+<div class="stage-container">
+  <h4>Image Upload</h4>
+  <img src="upload.png" alt="Image Upload">
+  <p>Click the "Open Image" button to upload a PNG image. If you upload an image in an incompatible format, an error message will appear.</p>
+</div>
+
+<div class="stage-container">
+  <h4>Filter Selection</h4>
+  <img src="sel.png" alt="Filter Selection">
+  <p>Choose the desired filter from the options available using the "Select" button in the upper left corner.</p>
+</div>
+
+<div class="stage-container">
+  <h4>Starting Process</h4>
+  <img src="exp.png" alt="Starting Process">
+  <img src="rayleigh.png" alt="Starting Process">
+  <p>After selecting the filter, adjust the filter parameters using the sliders provided. Once you are satisfied with the settings, click the "Process" button to apply the filter to your image.</p>
+</div>
+
+<div class="stage-container">
+  <h4>Saving Image</h4>
+  <img src="save.png" alt="Saving Image">
+  <p>Use the "Save Image" button to save the processed image to your device. Specify the desired location for saving the image.</p>
+</div>
+
+<div class="stage-container">
+  <h4>Getting Help</h4>
+  <img src="salt.png" alt="Getting Help">
+  <p>If you encounter any problems or need additional assistance, click the "Help" button for a detailed user guide.</p>
+</div>
+
+
+
+    <p>By following these simple steps, you can easily use the Image Processing application. For more detailed information, please refer to the comprehensive user guide.</p>
+
+    <p>Enjoy your work!</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Image Processing App</p>
+  </footer>
+</body>
+</html>
